@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试调用</title>
+</head>
+
+<body>
+    <canvas id="canvas"></div>
+    <script type="module">
+        import initSync, { greet,example_one,smiling_face } from './wchar_wasm_helloworld.js';
+        await initSync();
+        //greet();
+        //alert(example_one(30));
+        smiling_face();
+    </script>
+</body>
+
+</html>

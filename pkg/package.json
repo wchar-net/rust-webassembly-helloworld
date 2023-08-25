@@ -1,0 +1,17 @@
+{
+  "name": "wchar-wasm-helloworld",
+  "collaborators": [
+    "wchar <discourse@wchar.net>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wchar_wasm_helloworld_bg.wasm",
+    "wchar_wasm_helloworld.js",
+    "wchar_wasm_helloworld.d.ts"
+  ],
+  "module": "wchar_wasm_helloworld.js",
+  "types": "wchar_wasm_helloworld.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
